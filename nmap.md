@@ -24,5 +24,11 @@ The SCTP INIT scan covers a different set of services: SS7 and SIGTRAN. This typ
 
 The TOP NULL scan is also a very crafty scanning technique. It uses a loophole in the TCP system that can reveal the status of ports without directly querying them, which means that you can see their status even where they are protected by a firewall.
 
+## Version Detection
+
+    nmap -sV TARGET-IP
+    
+Basic version detection
+
 ### Sources
 https://www.varonis.com/blog/nmap-commands
